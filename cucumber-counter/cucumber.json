@@ -1,0 +1,21 @@
+{
+    "default": {
+        "paths": [
+            "tests/features/**/*.feature"
+        ],
+        "requireModule": ["ts-node/register"],
+        "require": [
+            "tests/steps/**/*.step.ts",
+            "tests/global-setup.ts"
+        ],
+        "formatOptions": {
+            "snippetInterface": "async-await"
+        },
+        "format": [
+            "progress-bar",
+            "summary",
+            "html:cucumber-report.html",
+            "json:cucumber-report.json"
+        ]
+    }
+}

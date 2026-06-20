@@ -1,0 +1,28 @@
+{
+  "name": "wordcounter-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/APAODUQS/wordcounter-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/APAODUQS/wordcounter-tests/issues"
+  },
+  "homepage": "https://github.com/APAODUQS/wordcounter-tests#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.0.0",
+    "@playwright/test": "^1.61.0",
+    "@types/node": "^25.9.3",
+    "playwright": "^1.61.0",
+    "ts-node": "^10.9.2"
+  }
+}
